@@ -1,0 +1,207 @@
+.contentost {
+    width: 80%;
+}
+
+.alink {
+    text-decoration: none;
+}
+
+.navimg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contentmainimg {
+    height: 750px;
+}
+
+.contentmainimgitem {
+    width: 100%;
+    text-align: center;
+}
+
+.slidercontent {
+    width: 20%;
+    padding-top: 50px
+}
+
+.slideritems {
+    margin-top: 5px;
+}
+
+.postitems {
+    width: 380px;
+    height: 550px;
+    margin: 10px;
+}
+
+.postitemshight {
+    height: 60%
+}
+
+.footercolour {
+    background-color: #1c2331
+}
+
+.sectionfooter {
+    background-color: #6351ce
+}
+
+.lineunder {
+    width: 60px;
+    background-color: #7c4dff;
+    height: 2px
+}
+
+.navbarr {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbarr {
+
+        flex-direction: row;
+        font-size: 11px;
+    }
+    .logo{
+        margin-left: 10px;
+        border: 1px ivory dashed; padding: 2px;
+    }
+
+    .navbarr ul li {
+        padding: 10px;
+    }
+
+    .navbarr ul {
+
+        flex-direction: row;
+
+    }
+    .alink {
+        font-size: 10px;
+        margin-top: 8px;
+    }
+    .postitems {
+     width: 80%;
+    }
+    .slidercontent {
+        width: 30%;
+        padding-top: 50px
+    }
+    .footerbox {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footerbox div h6 {
+        font-size: 12px;
+    }
+
+    .footerbox div p {
+
+        text-align: left;
+
+    }
+    .contentmainimg {
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        margin-left: 10px;
+    }
+
+    .navbarr {
+        flex-direction: row;
+    }
+
+    .navbarr ul {
+
+        flex-direction: row;
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+    }
+
+    .navbarr ul li {
+        padding: 5px;
+    }
+
+    .alink {
+        font-size: 10px;
+        margin-top: 13px;
+    }
+
+    .alink img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .contentmainimg {
+        height: 240px;
+    }
+
+    .boxvasat {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .slidercontent {
+        width: 100%;
+    }
+
+    .contentost {
+        width: 100%;
+    }
+
+    .postitems {
+        height: 360px;
+    }
+
+    .postitemshight {
+        padding-left: 10%;
+        padding-top: 2px;
+        padding-right: 10%;
+        height: 54%;
+    }
+
+    .cardtitle {
+        font-size: 13px;
+        font-weight: bold
+    }
+
+    .cardtext {
+        font-size: 11px;
+    }
+
+    .btnme {
+        font-size: 11px;
+        font-weight: 200;
+        height: 28px;
+        width: 60px;
+    }
+
+    .sectionfooter div span {
+        text-align: right;
+        font-size: 1px;
+    }
+
+    .footerbox {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footerbox div h6 {
+        font-size: 12px;
+    }
+
+    .footerbox div p {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .definebox {
+        padding: 10px;
+    }
+}
