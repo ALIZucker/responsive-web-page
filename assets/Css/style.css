@@ -26,6 +26,11 @@
     padding-top: 50px
 }
 
+.slideritems:hover {
+    background-color: darkslategrey;
+    color: lightyellow;
+}
+
 .slideritems {
     margin-top: 5px;
 }
@@ -59,14 +64,17 @@
 }
 
 @media screen and (max-width: 1000px) {
+
     .navbarr {
 
         flex-direction: row;
         font-size: 11px;
     }
-    .logo{
+
+    .logo {
         margin-left: 10px;
-        border: 1px ivory dashed; padding: 2px;
+        border: 1px ivory dashed;
+        padding: 2px;
     }
 
     .navbarr ul li {
@@ -78,21 +86,26 @@
         flex-direction: row;
 
     }
+
     .alink {
         font-size: 10px;
         margin-top: 8px;
     }
+
     .postitems {
-     width: 80%;
+        width: 80%;
     }
+
     .slidercontent {
         width: 30%;
         padding-top: 50px
     }
+
     .footerbox {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .footerbox div h6 {
         font-size: 12px;
     }
@@ -102,6 +115,7 @@
         text-align: left;
 
     }
+
     .contentmainimg {
         height: 440px;
     }
