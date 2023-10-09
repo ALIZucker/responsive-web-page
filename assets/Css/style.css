@@ -2,6 +2,63 @@
     width: 80%;
 }
 
+.titlefont {
+    font-size: 15px;
+}
+
+.eyeicon {
+    width: 15px;
+    height: 15px;
+    align-items: end
+}
+
+.numbercolor {
+    color: #1c2331
+}
+
+.takhfiffood {
+
+    width: 100%;
+    border-bottom: 3px darkslategray solid;
+    border-top: 3px darkslategray solid;
+    height: 90px
+}
+
+.listcategory {
+    list-style-type: none;
+    margin-right: 10px;
+    text-align: center
+}
+
+.tabligh {
+    width: 100%
+}
+
+.category {
+    border-bottom: 2px azure solid;
+    margin: 5px 30px;
+    color: azure;
+    font-size: 20px
+}
+
+.banner {
+    width: 100%;
+    height: 120px;
+    margin: 4px
+}
+
+.naveigate {
+    height: 100px;
+}
+
+.logo {
+    height: 60px;
+    width: 80px;
+    border: 2px bisque solid;
+    border-radius: 50%;
+    padding: 2px;
+}
+
 .alink {
     text-decoration: none;
 }
@@ -13,7 +70,7 @@
 }
 
 .contentmainimg {
-    height: 750px;
+    height: 600px;
 }
 
 .contentmainimgitem {
@@ -23,21 +80,46 @@
 
 .slidercontent {
     width: 20%;
-    padding-top: 50px
+
+
+}
+
+.slidercontentpart1 {
+    height: 20%;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-top: 20px;
+
+}
+
+.slidercontentpart2 {
+    height: 30%;
+
+    margin-top: 20px;
+
+}
+
+.slidercontentpart3 {
+    height: 130px;
+    margin-top: 20px;
+
 }
 
 .slideritems:hover {
     background-color: darkslategrey;
     color: lightyellow;
+    cursor: pointer;
 }
 
 .slideritems {
     margin-top: 5px;
+    border-radius: 20%;
 }
 
 .postitems {
     width: 380px;
-    height: 550px;
+    height: 600px;
     margin: 10px;
 }
 
@@ -50,17 +132,108 @@
 }
 
 .sectionfooter {
-    background-color: #6351ce
+    background-color: #6351ce;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footercolour section div span {
+    font-size: 13px;
+    font-weight: 100;
 }
 
 .lineunder {
     width: 60px;
-    background-color: #7c4dff;
+
     height: 2px
 }
 
 .navbarr {
     margin-right: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        display: none;
+    }
+    .postitems div div a{
+        font-size: 13px;
+        width: 90px;
+        height: 33px;
+        font-weight: 400;
+    }
+
+    .titlefont {
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+
+    .navbarr ul li a {
+        margin-left: 7px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+
+    .navbarr a {
+        margin-left: 8px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .navbarr a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .takhfiffood {
+        display: none;
+    }
+    .contentmainimg{
+        height: 100px;
+    }
+    .banner {
+        margin: 0;
+        height: 90px;
+    }
+
+    .slidercontentpart3 {
+        height: 70px;
+        margin: 0;
+    }
+
+    .slideritems {
+        width: 90px;
+        border: 2px ghostwhite solid;
+        font-size: 15px;
+        height: 90px;
+        border-radius: 50%;
+
+    }
+
+    .slidercontentpart1 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .listcategory {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .tabligh {
+        height: 390px;
+    }
+   .postitems div h3{
+       font-size: 16px;
+   }
+    .postitems div p{
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -85,6 +258,10 @@
 
         flex-direction: row;
 
+    }
+
+    .tabligh {
+        height: 420px;
     }
 
     .alink {
@@ -126,8 +303,23 @@
         margin-left: 10px;
     }
 
+    .takhfiffood {
+        height: 70px;
+    }
+
+    .banner {
+        height: 100px;
+    }
+
     .navbarr {
         flex-direction: row;
+    }
+
+    .listcategory {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .navbarr ul {
@@ -140,21 +332,31 @@
 
     .navbarr ul li {
         padding: 5px;
+        font-size: 14px;
+        font-weight: 200;
     }
 
     .alink {
-        font-size: 10px;
+        font-size: 14px;
+        font-weight: 300;
         margin-top: 13px;
+        margin-left: 4px;
+    }
+
+    .tabligh {
+        height: 450px;
     }
 
     .alink img {
-        width: 10px;
-        height: 10px;
+        width: 29px;
+        height: 29px;
+
     }
 
     .contentmainimg {
-        height: 240px;
+        height: 340px;
     }
+
 
     .boxvasat {
         flex-direction: column;
@@ -170,7 +372,7 @@
     }
 
     .postitems {
-        height: 360px;
+        height: 500px;
     }
 
     .postitemshight {
@@ -181,19 +383,23 @@
     }
 
     .cardtitle {
-        font-size: 13px;
+        font-size: 22px;
+        font-weight: 300;
         font-weight: bold
     }
 
+
     .cardtext {
-        font-size: 11px;
+        font-size: 19px;
+
     }
 
     .btnme {
-        font-size: 11px;
-        font-weight: 200;
-        height: 28px;
-        width: 60px;
+        font-size: 16px;
+        font-weight: 400;
+        color: ghostwhite;
+        height: 40px;
+        width: 100px;
     }
 
     .sectionfooter div span {
