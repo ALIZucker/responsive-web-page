@@ -27,20 +27,20 @@
         <div class="collapse  navbarr d-flex  ">
             <ul class="navbar-nav me-auto ">
                 <li class="nav-item">
-                    <a class="nav-link  ">Our Services</a>
+                    <a class="nav-link" onclick="showalart('go to Our Services')">Our Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Shop</a>
+                    <a class="nav-link" onclick="showalart('go to Shop')">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Restaurant</a>
+                    <a class="nav-link" onclick="showalart('go to Restaurant')">Restaurant</a>
                 </li>
             </ul>
-            <a href="#" class="text-white alink">Login
+            <a href="#" class="text-white alink " onclick="showalart('go to login page')">Login
                 <img src="assets/img/acc.png"
                      class="rounded-circle navimg"
                 ></a>
-            <a href="#" class="text-white alink">Sign in<img
+            <a href="#" class="text-white alink" onclick="showalart('go to Sign in')">Sign in<img
                     src="assets/img/vecteezy_eps10-white-vector-login-icon-or-logo-in-simple-flat-trendy_8302423-removebg-preview.png"
                     class="rounded-circle navimg"></a>
         </div>
@@ -104,11 +104,11 @@
 
             <ul class="listcategory">
 
-                <li class="p-2 bg-success slideritems"><b>Make Cake</b></li>
-                <li class="p-2 bg-danger slideritems"><b>Make Pizza</b></li>
-                <li class="p-2 bg-warning slideritems"><b>Make Bager</b></li>
-                <li class="p-2 bg-secondary slideritems"><b>Make Ice Cream</b></li>
-                <li class="p-2 bg-info slideritems"><b>Make juice</b></li>
+                <li  class="p-2 bg-success slideritems"><a href="#cake"><b>Make Cake</b></a></li>
+                <li class="p-2 bg-danger slideritems"><a href="#cake"><b>Make Pizza</b> </a></li>
+                <li class="p-2 bg-warning slideritems"><a href="#burger"><b>Make Bager</b></a></li>
+                <li class="p-2 bg-secondary slideritems"><a href="#burger"><b>Make Ice Cream</b></a></li>
+                <li class="p-2 bg-info slideritems"><a href="#Juice"><b>Make juice</b></a></li>
             </ul>
 
         </div>
@@ -147,10 +147,10 @@
 
             </div>
         </div>
-        <div class="card postitems">
+        <div id="burger" class="card postitems">
             <img class="card-img-top postitemshight" src="assets/img/Burgers.png" alt="Card image">
             <div class="card-body d-flex flex-column">
-                <h3 class="card-title cardtitle">Burger</h3>
+                <h3  class="card-title cardtitle">Burger</h3>
                 <p class="card-text cardtext">
                     <a href="https://en.wikipedia.org/wiki/Hamburger" style="color: deeppink" title="what is burger?">hamburger</a>
                     , or simply burger, is a sandwich consisting of fillings—usually
@@ -171,7 +171,7 @@
             </div>
         </div>
         <div class="card postitems">
-            <img class="card-img-top postitemshight" src="assets/img/kseniya.jpg"
+            <img id="cake" class="card-img-top postitemshight" src="assets/img/kseniya.jpg"
                  alt="Card image">
             <div class="card-body d-flex flex-column">
                 <h3 class="card-title cardtitle">Cake</h3>
@@ -215,7 +215,7 @@
                 </div>
             </div>
         </div>
-        <div class="card postitems">
+        <div id="Juice" class="card postitems">
             <img class="card-img-top postitemshight" src="assets/img/unnamed.jpg" alt="Card image">
             <div class="card-body d-flex flex-column">
                 <h3 class="card-title cardtitle">Juice</h3>
